@@ -1,0 +1,226 @@
+:root {
+  --bs-blue: #0d6efd;
+  --bs-indigo: #6610f2;
+  --bs-purple: #6f42c1;
+  --bs-pink: #d63384;
+  --bs-red: #dc3545;
+  --bs-orange: #fd7e14;
+  --bs-yellow: #ffc107;
+  --bs-green: #198754;
+  --bs-teal: #20c997;
+  --bs-cyan: #0dcaf0;
+  --bs-white: #fff;
+  --bs-gray: #6c757d;
+  --bs-gray-dark: #343a40;
+  --bs-primary: #0d6efd;
+  --bs-secondary: #6c757d;
+  --bs-success: #198754;
+  --bs-info: #0dcaf0;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+  --bs-light: #f8f9fa;
+  --bs-dark: #212529;
+  --bs-gradient: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.15),
+    rgba(255, 255, 255, 0)
+  );
+  --clr-primary-200: #fff;
+  --clr-primary-400: #57a048;
+  --clr-neutral-100: #d2e6d3;
+  --clr-neutral-900: #1a5e63;
+  --ff-primary: "Helvetica Neue", Helvetica, Arial, sans-seriF;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--ff-primary);
+  font-weight: 400;
+  font-size: 1.3125rem;
+  line-height: 1.6;
+}
+
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--ff-accent);
+  font-weight: 900;
+  line-height: 1;
+}
+h2,
+h3,
+p {
+  margin-bottom: 1em;
+}
+p {
+  font-family: "Poppins";
+  color: #1a5e63;
+  font-size: 106.25%;
+  text-shadow: none;
+  line-height: 1.5;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  font-weight: 600;
+}
+header {
+  height: 90px;
+}
+
+header,
+section {
+  padding: 3rem 0;
+}
+@media (min-width: 40em) {
+  header,
+  section {
+    padding: 3rem 0;
+  }
+}
+
+@media (min-width: 1400px) {
+  .home {
+    min-height: 1000px;
+  }
+}
+img {
+  display: block;
+  max-width: 100%; /* shrink if the area is smaller */
+}
+#doctor {
+  width: 620px;
+}
+/*Fix this*/
+#startNow {
+  margin-left: 5rem;
+  margin-bottom: 3rem;
+  border-radius: 10%;
+  color: var(--clr-primary-200);
+  background-color: var(--clr-primary-400);
+  display: inline-block;
+  padding: 10px 35px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+}
+#startNow:hover {
+  color: var(--clr-primary-200);
+  background-color: var(--bs-red);
+}
+@media (min-width: 1400px) {
+  .doctor-img {
+    display: block;
+    float: right;
+  }
+}
+.alivia-color-primary {
+  color: var(--clr-primary-400);
+  font-family: "Poppins";
+  font-size: 312.5%;
+  text-shadow: none;
+  line-height: 1;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  font-weight: 600;
+}
+@media (max-width: 600px) {
+  .alivia-color-primary {
+    font-size: 100%;
+  }
+}
+.alivia-color-secondary {
+  color: var(--clr-neutral-900);
+  font-family: "Poppins";
+  color: #1a5e63;
+  font-size: 312.5%;
+  text-shadow: none;
+  line-height: 1;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  text-align: left;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  font-weight: 600;
+}
+@media (max-width: 600px) {
+  .alivia-color-secondary {
+    font-size: 100%;
+  }
+}
+/* responsive */
+.container {
+  margin-inline: auto;
+  width: min(90%, 70.5rem);
+}
+/* responsive */
+.container-narrow {
+  max-width: 34rem;
+}
+/* Second-section */
+.download-container {
+  height: auto;
+  text-align: center;
+  color: var(--clr-primary-200);
+  background-image: url(../img/descargaYa.png);
+  display: block;
+}
+.download-container button {
+  display: inline-block;
+  padding: 10px 35px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: var(--clr-primary-400);
+  background-color: var(--clr-primary-200);
+  border: none;
+  border-radius: 15px;
+}
+.download-container h5 {
+  margin: 2rem auto;
+}
+.download-container button:hover {
+  color: var(--clr-primary-200);
+  background-color: var(--clr-primary-400);
+}
+/* Third-section */
+.perks{
+  width: 90vw;
+  max-width: 1117px;
+  margin: 5rem auto;
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: repeat(1, 1fr);
+}
+@media screen and (min-width: 768px) {
+  .perks {
+    grid-template-columns: repeat(2,1fr);
+  }
+}

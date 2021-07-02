@@ -1,0 +1,33 @@
+@media (min-width: 40em) {
+  .split {
+    display: flex;
+    flex-direction: column;
+  }
+}
+/* With this everything becomes to columns */
+.split {
+  display: flex;
+  flex-direction: row;
+}
+.bg-light {
+  background-color: var(--clr-primary-200);
+}
+.bg-primary {
+  background-color: var(--clr-primary-400);
+}
+.bg-neutral {
+  background-color: var(--clr-neutral-100);
+}
+
+.text-center {
+  text-align: center;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.black-item{
+  color: black;
+}

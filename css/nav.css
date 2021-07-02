@@ -1,0 +1,27 @@
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: var(--clr-primary-200);
+}
+.logo-container > img {
+  display: block;
+}
+
+.logo-container {
+  flex-grow: 1;
+}
+
+nav button {
+  width: 50px;
+  float: right;
+  color: var(--clr-primary-400);
+  background-color: transparent;
+  margin-top: 3%;
+  border: 0;
+  cursor: pointer;
+}
+@media (max-width: 900px) {
+  .nav-menu {
+    display: none;
+  }
+}
