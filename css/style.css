@@ -637,3 +637,9 @@ ul {
   -moz-animation-play-state: paused;
   -webkit-animation-play-state: paused;
 }
+/* ---------------------- */
+.plan-container {
+  height: 400px;
+  border: 1px solid var(--clr-neutral-900);
+  border-radius: 10%;
+}
