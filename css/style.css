@@ -90,8 +90,7 @@ section {
   }
 }
 .home {
- 
-  max-height: 750px !important ;
+  max-height: 800px !important ;
 }
 img {
   display: block;
@@ -284,9 +283,18 @@ img {
   transition: all 700ms ease;
 }
 /* Fourth-section */
-.doctors-section{
+.doctors-section {
+  width: 100%;
   background-color: var(--clr-neutral-100);
   min-height: 600px;
+}
+@media (max-width:600px){
+  .second-container {
+  
+    max-width: 300px;
+    height: 400px;
+   
+  }
 }
 
 .second-container {
@@ -326,7 +334,6 @@ img {
 
 .slideshow img {
   width: 100%;
-  
 }
 
 @-webkit-keyframes slide_animation {
@@ -678,4 +685,3 @@ ul {
   border-radius: 10%;
   list-style: none;
 }
-
