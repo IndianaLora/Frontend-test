@@ -78,9 +78,6 @@ p {
   text-transform: none;
   font-weight: 600;
 }
-header {
-  height: 90px;
-}
 
 header,
 section {
@@ -92,11 +89,9 @@ section {
     padding: 3rem 0;
   }
 }
-
-@media (min-width: 1400px) {
-  .home {
-    min-height: 1000px;
-  }
+.home {
+ 
+  max-height: 750px !important ;
 }
 img {
   display: block;
@@ -106,8 +101,14 @@ img {
   left: auto;
 }
 .heading-p {
-  left: auto;
-  width: 300px;
+  text-align: left;
+  width: 500px;
+}
+@media (max-width: 1199px) {
+  .heading-p {
+    width: 300px;
+    text-align: center;
+  }
 }
 @media (max-width: 780px) {
   .heading {
@@ -115,13 +116,21 @@ img {
     text-align: center;
   }
 }
+@media (min-width: 900px) {
+  #faBars {
+    display: none;
+  }
+}
+.homepage-text {
+  margin-top: 25%;
+}
 #doctor {
   width: 620px;
+  margin-top: 10%;
+  margin-right: 10%;
 }
 /*Fix this*/
 #startNow {
-  margin-left: 5rem;
-  /* margin-bottom: 3rem; */
   border-radius: 10%;
   color: var(--clr-primary-200);
   background-color: var(--clr-primary-400);
@@ -135,10 +144,16 @@ img {
   border: none;
   border-radius: 15px;
 }
+@media (max-width: 800px) {
+  #startNow {
+    margin-left: 5rem;
+  }
+}
 #startNow:hover {
   color: var(--clr-primary-200);
   background-color: var(--bs-red);
 }
+
 @media (min-width: 1200px) {
   .doctor-img {
     display: block;
@@ -147,6 +162,11 @@ img {
 }
 @media (max-width: 1200px) {
   .doctor-img {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .faBars {
     display: none;
   }
 }
@@ -161,6 +181,7 @@ img {
     display: visible;
   }
 }
+
 .alivia-color-primary {
   color: var(--clr-primary-400);
   font-family: "Poppins";
@@ -256,10 +277,23 @@ img {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+.w3-center {
+  -webkit-transition: all 700ms ease;
+  -o-transition: 700ms ease;
+  transition: all 700ms ease;
+}
 /* Fourth-section */
+.doctors-section{
+  background-color: var(--clr-neutral-100);
+  min-height: 600px;
+}
+
 .second-container {
-  background: #000;
-  width: 300px;
+  background: var(--clr-primary-200);
+  width: 600px;
+  height: 400px;
+  border-radius: 10%;
   margin: 0 auto;
   padding: 10px 10px 0 10px;
 }
@@ -291,8 +325,8 @@ img {
 }
 
 .slideshow img {
-  width: 280px;
-  height: 270px;
+  width: 100%;
+  
 }
 
 @-webkit-keyframes slide_animation {
@@ -642,4 +676,6 @@ ul {
   height: 400px;
   border: 1px solid var(--clr-neutral-900);
   border-radius: 10%;
+  list-style: none;
 }
+
