@@ -52,6 +52,15 @@
 .clr-light {
   color: var(--clr-primary-200);
 }
+.clr-instagram {
+  color: var(--bs-pink);
+}
+.clr-youtube {
+  color: var(--bs-red);
+}
+.clr-Facebook {
+  color: var(--bs-indigo);
+}
 #bg-neutral {
   background-color: var(--clr-neutral-900);
 }
