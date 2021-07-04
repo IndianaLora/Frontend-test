@@ -105,14 +105,14 @@ img {
 }
 @media (max-width: 1199px) {
   .heading-p {
-    width: 300px;
+    width: 100%;
     text-align: center;
   }
 }
+
 @media (max-width: 780px) {
   .heading {
-    left: 0;
-    text-align: center;
+   text-align: center;
   }
 }
 @media (min-width: 900px) {
@@ -288,16 +288,27 @@ img {
   background-color: var(--clr-neutral-100);
   min-height: 600px;
 }
+.doctors-section-p p{
+  margin: auto;
+  max-width: 500px;
+}
 @media (max-width: 600px) {
   .second-container {
     max-width: 300px;
     height: 400px;
   }
 }
-.sl-doc {
-  margin-left: 30%;
+.two-color{
+color: var(--clr-primary-400);
+font-weight: bold;
 }
-
+.two-color span{
+  color: var(--clr-neutral-900);
+  font-weight: bold;
+  }
+.sl-doc {
+  margin-left: 35%;
+}
 @media (max-width: 600px) {
   .sl-doc {
     margin-left: 10%;
@@ -409,7 +420,7 @@ img {
     margin: 1;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 310px) {
   .logos {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
