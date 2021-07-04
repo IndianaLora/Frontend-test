@@ -18,7 +18,7 @@
 
 <body>
   
-  <header>
+
   
     <nav>
       <div class="nav-button">
@@ -37,7 +37,7 @@
         <a href="">Contactanos</a>
       </div>
     </nav>
-  </header>
+
 
   <!-- First section -->
   <section class="bg-neutral home ">
@@ -182,40 +182,32 @@
         <ul>
 
           <li class="text-center">
-            <img src="img/dr-1.png" class="" />
+            <img src="img/dr-1.png" class="sl-doc" />
             <div class="slider-container">
             
-              <p>“Possibly one of the best in Manchester. A menu designed and prepared by a very skilled chef, ably
-                assisted by his wife who provides a friendly welcome. Always consistent and of high quality.” <br>Paul
-                Fletcher – Google</p>
+            
             </div>
           </li>
 
 
           <li>
-            <img src="img/dr-2.png" class="" />
+            <img src="img/dr-2.png" class="sl-doc" />
             <div class="slider-container">
             
-              <p>“Possibly one of the best in Manchester. A menu designed and prepared by a very skilled chef, ably
-                assisted by his wife who provides a friendly welcome. Always consistent and of high quality.” <br>Paul
-                Fletcher – Google</p>
+              
             </div>
           </li>
           <li>
-            <img src="img/dr-3.png" class="" />
+            <img src="img/dr-3.png" class="sl-doc" />
             <div class="slider-container">
             
-              <p>“Possibly one of the best in Manchester. A menu designed and prepared by a very skilled chef, ably
-                assisted by his wife who provides a friendly welcome. Always consistent and of high quality.” <br>Paul
-                Fletcher – Google</p>
+            
             </div>
           </li>
           <li>
-            <img src="img/dr-4.png" class="" />
+            <img src="img/dr-4.png" class="sl-doc" />
             <div class="slider-container">
-              <p>“Food was amazing and service could not have been better...we went for a quick lunch as our office is
-                opposite the restaurant...very quick service...I am highly recommending this restaurant to all my
-                family and friends...” <br>Nic Gent – Facebook Page</p>
+             
             </div>
           </li>
           
@@ -227,19 +219,23 @@
   <!-- End of section -->
   <section class="container">
 
-    <h4 class="text-center clr-primary about-tittle">Conoce sobre nosotros</h4>
+ 
     <div class="row">
-      <div class="column">
+      <div class="column about-column">
+        <h1 class="clr-primary about-tittle">Conoce sobre nosotros</h1>
+        <br>
         <p class="about-p clr-neutral-900">Somos un equipo especializado comprometidos en la nutrición tanto personal
           como familiar. Brindamos planes
           hechos a tu medida que se ajustan a tus gustos y preferencias. Esto quiere decir que puedes comer los
           alimentos que más te gusten de una manera balanceada y saludable, de la mano de un grupo de nutricionistas que
           te ayudarán a conseguir esos resultados que deseas.
+<br>
+<br>
 
           Nuestra vasta experiencia en nutrición hará que tu peso, salud y energía estén en armonía. Somos una compañía
           que se ajusta a los más estrictos controles de calidad.</p>
       </div>
-      <div class="column"><img src="./img/modelo-1.png" /></div>
+      <div class="column"><img src="./img/modelo-1.png" class="row-model" /></div>
     </div>
   </section>
   <!-- End of section -->
@@ -265,7 +261,7 @@
   <section class="container seventh">
     <div class="">
       <div class="column">
-        <div class="card text-white bg-success seventh-card" id="seventh-card">
+        <div class="card text-white bg-success seventh-card seventh-card1 " id="seventh-card" >
           <div class="card-body">
             <h5 class="card-title">Obtén la energía
               que tu cuerpo necesita</h5>
@@ -283,13 +279,23 @@
             <h5 class="card-title">Ayudamos a mejorar la
               calidad de vida a los pacientes
               con condiciones especiales</h5>
-            <p class="card-text text-white">Diabetes
-              Hipertensión
-              Obesidad
-              Obesidad infantil
-              Déficit hormonal
-              Déficit alimenticio
-              Colesterol Alto
+            <p class="card-text text-white">
+              <div class="list-wraper">
+                <ul>
+                    <li><i class="fas fa-check-circle"></i> Diabetes</li>
+                    <li><i class="fas fa-check-circle"></i> Hipertensión</li>
+                    <li><i class="fas fa-check-circle"></i> Obesidad</li>
+                    <li><i class="fas fa-check-circle"></i> Obesidad infantil</li>
+                    <ul class="float-right">
+                      <li><i class="fas fa-check-circle"></i> Déficit hormonal</li>
+                      <li><i class="fas fa-check-circle"></i> Déficit alimenticio</li>
+                      <li><i class="fas fa-check-circle"></i> Colesterol Alto</li>
+                  </ul>
+                  </ul>
+
+    
+            </div>
+            
             </p>
           </div>
         </div>
@@ -328,6 +334,50 @@
               </div>
             </div>
           </div>
+          <div class="container">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                        Ver tabla de referencia
+                    </button>
+                </h2>
+
+                <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample" style="">
+                    <div class="accordion-body">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Composición corporal</th>
+                                    <th scope="col">
+                                        Índice de masa corporal (IMC)
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="table-secondary">
+                                    <td>Peso inferior al normal</td>
+                                    <td>Menos de 18.5</td>
+                                </tr>
+                                <tr class="table-success">
+                                    <td>Normal</td>
+                                    <td>18.5 – 24.9</td>
+                                </tr>
+                                <tr class="table-warning">
+                                    <td>Peso superior al normal</td>
+                                    <td>25.0 – 29.9</td>
+                                </tr>
+                                <tr class="table-danger">
+                                    <td>Obesidad</td>
+                                    <td>Más de 30.0</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
         </div>
       </div>
   </section>

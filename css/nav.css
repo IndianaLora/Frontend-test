@@ -31,40 +31,44 @@
   --clr-neutral-900: #1a5e63;
   --ff-primary: "Helvetica Neue", Helvetica, Arial, sans-seriF;
 }
-header{
-  overflow: hidden;
+header {
+  height: 100px;
   background-color: var(--clr-primary-200);
-  position: fixed;
-  top: 0;
   width: 100%;
+  z-index: 10;
+  position: fixed;
 }
 nav {
   display: flex;
-
   flex-direction: row;
   background-color: var(--clr-primary-200);
+  height: 100px;
+  width: 100%;
+  z-index: 10;
+  position: fixed;
 }
 
 .logo-container > img {
   display: block;
-  width: 90px;
-  margin-left: 1%;
-  margin-bottom: 5%;
+  width: 100px;
+  margin: 1.5rem;
   position: absolute;
 }
 
-.nav-button{
+.nav-button {
   margin-right: 5%;
 }
 nav button {
   width: 50px;
   float: right;
+  margin-top: 2%;
   color: var(--clr-primary-400);
   background-color: transparent;
   border: 0;
   cursor: pointer;
 }
 .nav-menu {
+  margin-top: 2%;
   margin-left: 10%;
 }
 #red {
@@ -72,7 +76,6 @@ nav button {
 }
 
 .nav-menu a {
- 
   padding: 2px 10px 100px 25px;
   text-decoration: none !important;
   color: var(--clr-primary-400);
