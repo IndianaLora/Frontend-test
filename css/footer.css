@@ -33,10 +33,45 @@
   }
   .footer div{
     border: none !important;
+    margin: 3rem auto ;
     }
-    .footer img{
-      border: none;
+    .footer-center input,button{
+     margin: 3em auto !important;
+     
     }
-    .footer img{
-      border: none;
+    .footer li{
+    list-style: none;
+    
+    color: var(--clr-neutral-900);
     }
+   .contact-hr{
+    margin: auto;
+    margin-bottom: 7%;
+    width: 150px;
+    height: 2px;
+    background-color: var(--clr-primary-400)
+   }
+   .mastercard{
+   font-size: 50px;
+   margin: 0.5rem !important;
+  color: #390e7e;
+  margin-bottom: 10% !important;
+   }
+   .info-hr{
+    margin: auto;
+    margin-bottom: 7%;
+    width: 200px;
+    height: 2px;
+    background-color: var(--clr-primary-400)
+   }
+  .info-li li:hover{
+   color: var(--bs-red);
+   }
+   .hr-footer{
+    height:2px;
+   }
+   .footer-h1{
+     position: absolute;
+     width: 100%;
+     
+   }
