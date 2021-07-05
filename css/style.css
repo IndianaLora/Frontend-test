@@ -777,7 +777,7 @@ img {
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 600px) {
   .results-photos {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -961,7 +961,7 @@ img {
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 600px) {
   .plan-container-div {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
