@@ -745,6 +745,16 @@ img {
     margin-bottom: 250%;
   }
 }
+@media (min-width:400px) {
+  .svg-section {
+    margin-bottom: 150% !important;
+  }
+}
+@media (min-width:700px) {
+  .svg-section {
+    margin-bottom: 100% !important;
+  }
+}
 .c
 /* Ninefth */
 
@@ -779,7 +789,7 @@ img {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 728px) {
   .results-photos {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
