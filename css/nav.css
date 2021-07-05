@@ -59,6 +59,7 @@ nav {
   margin-right: 5%;
 }
 nav button {
+  margin-top: 2%;
   width: 50px;
   float: right;
   color: var(--clr-primary-400);

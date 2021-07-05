@@ -33,19 +33,35 @@
   }
   .footer div{
     border: none !important;
-    margin: 3rem auto ;
+    margin-right: 5rem ;
     }
-    .footer-center input,button{
+    .footer p{
+      margin-right: 5rem ;
+    }
+    @media (max-width:400px){
+      .footer p{
+        margin-right:0;
+      }
+    }
+    @media (max-width:400px){
+      .footer div{
+        margin-right:0;
+      }
+    }
+    .footer button{
+     
+      margin: 1rem !important;
+    }
+    .footer-center input{
      margin: 3em auto !important;
      
     }
     .footer li{
     list-style: none;
-    
+    margin-bottom: 1rem !important;
     color: var(--clr-neutral-900);
     }
    .contact-hr{
-    margin: auto;
     margin-bottom: 7%;
     width: 150px;
     height: 2px;
@@ -58,7 +74,7 @@
   margin-bottom: 10% !important;
    }
    .info-hr{
-    margin: auto;
+    
     margin-bottom: 7%;
     width: 200px;
     height: 2px;
@@ -73,5 +89,6 @@
    .footer-h1{
      position: absolute;
      width: 100%;
+     margin-bottom: 0;
      
    }
