@@ -31,6 +31,12 @@
   --clr-neutral-900: #1a5e63;
   --ff-primary: "Helvetica Neue", Helvetica, Arial, sans-seriF;
 }
+.clr-orange{
+  color: var(--bs-orange);
+}
+.clr-brown{
+  color:rgb(90, 63, 14);
+}
 .clr-primary {
   color: var(--clr-primary-400);
 }
@@ -108,4 +114,7 @@
 }
 .black-item {
   color: black;
+}
+.text-bold {
+  font-weight: bold;
 }

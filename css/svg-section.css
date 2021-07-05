@@ -1,0 +1,72 @@
+:root {
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-gradient: linear-gradient( 180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+    --clr-primary-200: #fff;
+    --clr-primary-400: #57a048;
+    --clr-neutral-100: #d2e6d3;
+    --clr-neutral-900: #1a5e63;
+    --ff-primary: "Helvetica Neue", Helvetica, Arial, sans-seriF;
+  }
+
+.input-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 1rem;
+}
+.span-svg{
+    background-color: var(--bs-gray);
+    width: 40px;
+    height: 29px;
+    margin-right: 1rem;
+}
+.input-svg{
+    width: 200px;
+    margin-bottom: 5%;
+}
+.card{
+   width: 600px; 
+    border-radius: 10%;
+}
+@media (max-width:700px) {
+    .card{
+        width: 100%; 
+    }
+}
+@media (max-width:700px) {
+    .input-svg{
+        width: 100%; 
+    }
+}
+.card label{
+    margin: 1rem;
+    font-weight: bold;
+}
+#btn-svg{
+    width: 200px;
+    margin: 2rem auto;
+}
+/* ------------------- */
+.testimonial-photos-section{
+    background-color: rgb(249, 249, 249);
+   
+}
